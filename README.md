@@ -12,10 +12,10 @@ Predicting breast cancer diagnosis as either cancerous or non-cancerous, using M
 
 o Source files
 --------------------------------------------------------------------------------
--exploratory.r
--modelling.r
--corr.r
--eval.r
+- exploratory.r
+- modelling.r
+- corr.r
+- eval.r
 
 
 o Additional files
