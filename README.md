@@ -12,10 +12,10 @@ Predicting breast cancer diagnosis as either cancerous or non-cancerous, using M
 
 Source files
 --------------------------------------------------------------------------------
-- exploratory.r
-- modelling.r
-- corr.r
-- eval.r
+- exploratory.r - set directory, import data, format (standardize) data, explores feature selection methods such as random forest variable importance. Explores mention for dimension reduction
+- corr.r - analysis of correlation in the data
+- modelling.r - building ML models based on subsets in *exploratory.r*, Logistic Regression, Support Vector Machine, Naive Bayes 
+- eval.r - evaluation of ML models -- ROC curve, AUC score, accuracy, F-score, Kappa, computational complexity
 
 
 Additional files
